@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         
     - name: Build the Docker image
-      run: docker build . -t your_dockerhub_username/laravel-authentication:latest
+      run: docker build . -t MernaGamal/laravel-authentication:latest
       
     - name: Push the Docker image
-      run: docker push your_dockerhub_username/laravel-authentication:latest
+      run: docker push MernaGamal/laravel-authentication:latest
