@@ -31,8 +31,8 @@ jobs:
             
     - name: Build the Docker image
       run: |
-        docker build -t MernaGamal/laravel-authentication:latest .
+        docker build -t mernagamal/laravel-authentication:latest .
     
     - name: Push Docker image
       run: |
-        docker push MernaGamal/laravel-authentication:latest
+        docker push mernagamal/laravel-authentication:latest
